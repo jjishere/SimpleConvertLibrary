@@ -29,6 +29,7 @@
  * @param hexValue takes in any hex value
  * @return returns an int
  */
+
 +(int)convertHextToInt :(NSString *)hexValue;
 
 /**
