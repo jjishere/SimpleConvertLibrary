@@ -13,6 +13,7 @@
  * @param value takes in any string value
  * @return returns a sha1 string
  */
+
 +(NSString *)convertToSha1 :(NSString *)value;
 
 /**
@@ -20,6 +21,7 @@
  * @param value takes in any string value
  * @return returns a sha256 string
  */
+
 +(NSString *)convertToSha256 :(NSString *)value;
 
 /**
@@ -34,6 +36,7 @@
  * @param hexValue takes in any hex value
  * @return returns a string
  */
+
 +(NSString *)convertHexToString :(NSString *)hexValue;
 
 /**
@@ -41,6 +44,7 @@
  * @param inputValue takes in any NSUInteger
  * @return returns a binary value without leading zeros
  */
+
 +(NSString *)convertToBinaryWithLeadingZero :(NSUInteger)input;
 
 /**
@@ -49,4 +53,5 @@
  * @param length the length of the string value
  * @return returns a binary value with leading zeros
  */
+
 +(NSString *)convertToBinary :(NSUInteger)input strLength :(int)length;
